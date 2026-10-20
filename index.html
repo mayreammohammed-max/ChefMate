@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefMate | Catering & Equipment Rentals</title>
+    <style>
+        /* General Website Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+        /* Header */
+        header {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 40px;
+        }
+        .logo-c {
+            color: red;
+        }
+        .logo-m {
+            color: blue;
+        }
+        /* Navigation Bar */
+        nav {
+            background-color: #4b164c;
+            text-align: center;
+            padding: 15px 5px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+        }
+        nav a:hover {
+            color: yellow;
+        }
+        /* Welcome Section */
+        .welcome {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .welcome h2 {
+            color: purple;
+            font-size: 30px;
+        }
+        .welcome p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        /* Buttons */
+        .order-button,
+        .rent-button {
+            display: inline-block;
+            background-color: green;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 10px 5px;
+        }
+        .order-button:hover,
+        .rent-button:hover {
+            background-color: darkgreen;
+        }
+        /* Catering Services */
+        .services {
+            text-align: center;
+            padding: 35px 20px;
+            background-color: white;
+        }
+        .services h2 {
+            color: purple;
+            font-size: 30px;
+        }
+        .services p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        /* Equipment Rental Section */
+        .rentals {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #fff0f5;
+        }
+        .rentals h2 {
+            color: purple;
+            font-size: 30px;
+        }
+        .rentals p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+        .rent-button {
+            background-color: purple;
+        }
+        .rent-button:hover {
+            background-color: #4b164c;
+        }
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 35px 20px;
+            line-height: 2;
+        }
+        .contact h2 {
+            color: purple;
+            font-size: 30px;
+        }
+        .contact a {
+            color: purple;
+            text-decoration: none;
+        }
+        /* Footer */
+        footer {
+            background-color: purple;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        /* Mobile Phone Styling */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+            nav a {
+                margin: 6px;
+            }
+            .welcome h2 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Website Header -->
+    <header>
+        <h1>
+            <span class="logo-c">C</span>hef<span class="logo-m">M</span>ate
+        </h1>
+        <p>Delicious Meals, Prepared with Love!</p>
+        <p>Catering Services & Event Equipment Rentals</p>
+    </header>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Our Services</a>
+        <a href="#rentals">Rentals</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <!-- Welcome Section -->
+    <section class="welcome" id="home">
+        <h2>Welcome to ChefMate!</h2>
+        <p>
+            We prepare delicious meals for birthdays, weddings,
+            parties, corporate events and other special occasions.
+        </p>
+        <p>
+            From tasty Nigerian dishes to event equipment rentals,
+            ChefMate is here to make your events special.
+        </p>
+        <a class="order-button"
+           href="https://wa.me/2348066476799"
+           target="_blank"
+           rel="noopener noreferrer">
+            Order Food on WhatsApp
+        </a>
+    </section>
+    <!-- Catering Services Section -->
+    <section class="services" id="services">
+        <h2>Our Catering Services</h2>
+        <p>🍛 Food and drinks Catering for Events</p>
+        <p>🎂 Birthday and Party Catering</p>
+        <p>🍲 Traditional Nigerian Dishes</p>
+        <p>🍱 Food Trays and Meal Orders</p>
+        <p>💍 Wedding and Corporate Event Catering</p>
+    </section>
+    <!-- Equipment Rental Section -->
+    <section class="rentals" id="rentals">
+        <h2>Event Equipment Rentals</h2>
+        <p>
+            Planning an event? ChefMate has you covered!
+        </p>
+        <p>🍽️ Plates for Rent</p>
+        <p>🔥 Burners for Rent</p>
+        <p>🥘 Chafing Dishes for Rent</p>
+        <p>🍱 Serving Trays for Rent</p>
+        <p>🧊 Coolers for Rent</p>
+        <p>
+            Contact us to enquire about availability
+            and rental prices.
+        </p>
+        <a class="rent-button"
+           href="https://wa.me/2348066476799?text=Hello%20ChefMate%2C%20I%20want%20to%20enquire%20about%20renting%20event%20equipment."
+           target="_blank"
+           rel="noopener noreferrer">
+            Rent Equipment on WhatsApp
+        </a>
+    </section>
+    <!-- Contact Information -->
+    <section class="contact" id="contact">
+        <h2>Contact ChefMate</h2>
+        <p>
+            <strong>Phone Number:</strong><br>
+            <a href="tel:+23466476799">
+                +234 806 647 6799
+            </a>
+        </p>
+        <p>
+            <strong>Email Address:</strong><br>
+            <a href="mailto:ohumojiroyeh@gmail.com">
+                ohumojiroyeh@gmail.com
+            </a>
+        </p>
+        <p>
+            <strong>Business Address:</strong><br>
+            Ikorodu, Lagos, Nigeria
+        </p>
+        <p>
+            <strong>Opening Hours:</strong><br>
+            Monday - Saturday, 8 AM - 6 PM
+        </p>
+    </section>
+    <!-- Website Footer -->
+    <footer>
+        <p>
+            &copy; 2026 ChefMate.
+            All Rights Reserved.
+        </p>
+        <p>Catering with Love ❤️</p>
+    </footer>
+</body>
+</html>
